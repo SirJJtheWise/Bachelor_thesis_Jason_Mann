@@ -15,7 +15,7 @@
 
 ## Introduction
 
-Provide a brief introduction to your project. Explain what your deep learning network does, the problem it solves, and any key details that will help users understand its purpose.
+This Repoisitory contains a segmentation network that intitialy tracks and then creates the segmentation result from the tracking result. 
 
 ## Features
 
@@ -46,3 +46,10 @@ cd your-repo-name
 
 # Install the required packages
 pip install -r requirements.txt
+
+### Quick run
+
+cd ./pytracking/ltr
+python3 run_training.py dimp dimp_merged
+
+
