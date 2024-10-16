@@ -19,9 +19,9 @@ This Repoisitory contains a segmentation network that intitialy tracks and then 
 
 ## Features
 
-- **Feature 1**: Describe the first key feature of your project.
-- **Feature 2**: Describe the second key feature of your project.
-- **Feature 3**: Describe the third key feature of your project.
+- **Feature 1**: Combines tracking and segmentation.
+- **Feature 2**: Utilizes discriminative loss in the model predictor to increase discriminative functionality of tracking part.
+- **Feature 3**: Segmentation part consist of refinement modules to increase pixel wise acuracy.
 
 ## Installation
 
@@ -29,9 +29,9 @@ This Repoisitory contains a segmentation network that intitialy tracks and then 
 
 List any prerequisites that need to be installed for your project. For example:
 
-- Python 3.x
+- Python 3
 - pip
-- TensorFlow or PyTorch
+- PyTorch
 
 ### Installing
 
@@ -42,7 +42,7 @@ Provide step-by-step instructions on how to install your project. For example:
 git clone https://github.com/your-username/your-repo-name.git
 
 # Navigate to the project directory
-cd your-repo-name
+cd ./Network_Git
 
 # Install the required packages
 pip install -r requirements.txt
